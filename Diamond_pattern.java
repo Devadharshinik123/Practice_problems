@@ -1,10 +1,7 @@
 package Daily_coding;
 public class Diamond_pattern {
-
-
     public static void main(String[] args) {
         int n = 5; // Adjust this for the desired size
-        
         // Upper half of the pattern
         for (int i = 1; i <= n; i++) {
             // Print spaces before stars
@@ -17,7 +14,6 @@ public class Diamond_pattern {
             }
             System.out.println();
         }
-
         // Lower half of the pattern
         for (int i = n - 1; i >= 1; i--) {
             // Print spaces before stars
